@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/lucide-static@latest/font/lucide.css" />
+
+</head>
+<body>
+    <header>
+          <button class="hamburger" id="hamburger">
+                ☰
+          </button>
+        <nav id="nav-menu">
+        <a href="#aboutme">About me</a>
+        <a href="#projects">My Projects</a>
+        <a href="#jobexperience">Job Experience</a>
+        <a href="#links">Links</a>
+    </nav>
+    </header>
+
+   <section id="aboutme">
+     <div class="velkommen" style="text-align: center;">
+    <h1>Velkommen til nettsiden min!</h1>
+    </div>
+    <div class="container">
+        <div class="container-content">
+            <p> <br>Mitt navn er Daris og jeg er 17 år gammel. Jeg er for tiden elev ved Kuben videregående skole med IT-studieretning. <br>
+
+                 <br> Jeg har alltid hatt interesse for datamaskiner siden jeg var liten. Siden jeg begynte på videregående skole i IT-studieretningen har jeg blitt mer interessert i programmering og å lage nettsider, men jeg er også solid i vedlikehold og forståelse av datamaskiner. <br>
+                  
+                <br> Jeg vil si at jeg lærer veldig raskt, at jeg er interessert, nysgjerrig og positiv. 
+                  Som elev som fortsatt ikke er helt sikker og moden med IT-ferdighetene sine, er jeg veldig flink til å spørre når jeg ikke forstår noe. <br>
+                
+                <br>På denne nettsiden for du en titt på det jeg driver med akkurat nå! <br></p>
+            <img class="myself" src="img/portrett.JPG" alt="my portrait">
+        </div>
+    </div>
+   </section>
+    <section id="projects">
+        <h1 class="projects_overskrift">My Projects:</h1>
+        <div class="img-container">
+        <div class="weatherapp"></div>
+        <div class="lyrics_finder"></div>   
+        <div class="bestillingsapp"></div>
+        <div class="ticketsystem"></div>
+        </div>
+    </section>
+
+    <section id="jobexperience">
+        <div class="experience-overskrift">
+            <h1>Job Experience</h1>
+        </div>
+        <div class="timeline">
+            <div class="timeline-container left-container">
+                <a href="https://tv.nrk.no/serie/lik-meg/sesong/7/episode/MSUD15000823"><img src="img/nrk.png" class="icon"></a>
+                <div class="text-box">
+                    <h2 style="text-decoration: underline;">Bakgrunnsskuespiller</h2>
+                      <p>okt. 2023 - okt. 2023 </p> 
+
+                  <br> <p>Første møte med en hvilken som helst jobb. <br>
+                      <br>  Lærte hvordan man jobber etter instruksjoner. <br>
+                      <br>  Her lærte jeg også mye om tålmodighet og ansvarlighet.<br>
+                      <br> Filming av serien '<b>Lik Meg</b>' sesong 7: </p> <br> 
+                <video height="250" controls>
+                <source src="img/likmeg.mp4" type="video/mp4"></video>
+                <span class="left-container-arrow"></span>
+                </div>
+            </div>
+             <div class="timeline-container right-container">
+                <a href="https://www.nicconf.com/"><img src="img/nic.png" alt="" class="icon"></a>
+                <div class="text-box">
+                    <h2 style="text-decoration: underline;">NIC: Rebel Edition (IT-konferanse)</h2>
+                    <p>okt. 2025 - okt. 2025 </p>
+                    <p> <br>Bidro frivillig under det nasjonale IT-konferansen NIC Rebel Edition. <br>
+                       <br> Arbeidsoppgavene mine var å veivise deltakere inn i området,
+                            sitte på informasjonsdesken og være sal vakt i en sal. <br>
+                           <br> Erfaringen ga innsikt i arrangementsteknologi, kundeservice og
+                            samarbeid i et profesjonelt miljø. <br></p>
+                            <br>
+                      <img src="/img/nic1.png" alt="">
+                      <br>
+                     <span class="right-container-arrow"></span>
+                </div>
+            </div>
+
+             <div class="timeline-container left-container">
+                 <a href="https://comono.no/"><img src="img/comono.jpeg" class="icon"></a>
+                <div class="text-box">
+                    <h2 style="text-decoration: underline;">Comono AS</h2>
+                    <p>jan. 2026 - feb. 2026</p>
+                    <br><p>fjsgsjjerq</p><br>
+                    <br><p>fjeqjbt</p><br></p>
+                     <span class="left-container-arrow"></span>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="links">
+    <footer class="footer">
+        <div class="footer-left">
+        <h3>GitHub links:</h3> <br>
+        <div class="footer-links">
+        <a href="https://github.com/darisomericic/WeatherApp_ProsjektVG2">WeatherApp</a>
+        <a href="https://github.com/darisomericic/Lyrics_finder">Lyricsfinder</a>
+        <a href="https://github.com/darisomericic/Bestillingsapp-kantina">Bestillingsapp</a>
+        <a href="https://github.com/darisomericic/Oppdrag2_TicketSystem">TicketSystem</a>
+        </div>
+        </div>
+        <div class="footer-center">
+         &copy; <span id="year"></span> Daris Omericic. All rights reserved.
+        </div>
+
+          <div class="footer-right">
+            <h3>Kontakt meg:</h3>
+            <div class="icons">
+            <div class="icon-instagram"></div>
+            <div class="icon-linkedin"></div>
+            <div class="icon-mail"></div>
+            </div>
+        </div>
+    </footer> 
+    </section>
+
+ 
+<script src="script.js"></script> 
+</body>
+</html>
