@@ -446,14 +446,14 @@ img {
         right: auto;
     }
      .left-container .icon {
-        left: 16px; /* Plasserer bildet ved siden av tidslinjen */
+        left: 7px; /* Plasserer bildet ved siden av tidslinjen */
         right: auto;
        width: 5vh;
        
     }
 
       .right-container .icon {
-        left: 11px; /* Plasserer bildet ved siden av tidslinjen */
+        left: 2px; /* Plasserer bildet ved siden av tidslinjen */
         right: auto;
        width: 6vh;
        
@@ -568,7 +568,11 @@ img {
 
 @media (max-width: 450px) {
     .footer-center {
-        font-size: clamp(5px, 7px, 20px);
+        font-size: clamp(5px, 6px, 20px);
         width: 60%;
+    }
+
+    .footer-right h3 {
+        font-size: clamp(5px, 8px, 20px); ;
     }
 }
