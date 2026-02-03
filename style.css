@@ -567,9 +567,17 @@ img {
 
 
 @media (max-width: 450px) {
+
+      .footer-left h3 {
+          font-size: clamp(5px, 10px, 20px) ;
+      }
+
+    .footer-left a {
+        font-size: clamp(5px, 8px, 20px) ;
+    }
     .footer-center {
-        font-size: clamp(5px, 6px, 20px);
-        width: 60%;
+        font-size: clamp(5px, 7px, 20px);
+        
     }
 
     .footer-right h3 {
