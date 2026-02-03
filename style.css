@@ -528,7 +528,7 @@ img {
     margin: 0.35rem;
 }
 
-.icons {
+.icons  {
     display: flex;
     flex-direction: row;
     gap: 0.75rem;
@@ -536,6 +536,11 @@ img {
     line-height: 2.0;
     color: white;
     cursor: pointer;
+    
+}
+
+.icons a {
+    text-decoration: none;
 }
 
 @media (max-width: 800px) {
