@@ -479,10 +479,23 @@ img {
 #links {
     background-color: #565858; 
     display: flex;
-    flex-direction: column;
-    justify-content: center; /* center horizontally */
+    flex-direction: column; 
     align-items: center;     /* center vertically */
-    height: 90vh;       /* full screen height */
+    height: 100vh;
+    padding: 2vh;       /* full screen height */
+    
+
+}
+
+.link-header{
+    background-color: #354444;
+    color: white;
+    text-align: center;
+    padding: 5vh;
+    width: 98%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    border-radius: 15px;
     
 
 }
@@ -494,12 +507,10 @@ img {
   width: fit-content;      /* 👈 key */
   background-color: #3e4a4a;
   padding: 5vh 20vh;
+  margin: 4vh;
   text-align: center;
   border-radius: 20px;
   box-shadow: 2px 1px 2px 1px rgba(255, 255, 255, 0.2);
-
-
-   
 }
 
 .lenker h3 {
@@ -542,18 +553,17 @@ img {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    max-width: 360px;
+    max-width: 460px;
     text-align: center;
     box-sizing: border-box;
-    margin-top: 1rem;
+    margin-top: -1rem;
 }
 
 .icons {
     display: flex;
-    justify-content: center;
-    gap: 0.75rem;
+    justify-content: space-around;
     background-color: #3e4a4a;
-    padding: clamp(0.5rem, 2vw, 1rem);
+    padding: clamp(0.5rem, 3vw, 1rem);
     border-radius: 20px;
     line-height: 1.5;
     margin-top: 1rem;
@@ -570,14 +580,14 @@ img {
     height: 44px;
     min-width: 44px;
     min-height: 44px;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     border-radius: 8px;
 }
 
 /* Mobile tweaks for links and icons */
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .lenker {
-    padding: 1rem;
+    padding: 5rem;
   }
 
   .lenker a {
