@@ -387,11 +387,11 @@ img {
 
 @media (max-width: 768px) {
     .left-container .icon {
-        top: 55px;
+        top: 35px;
     }
 
     .right-container .icon {
-        top: 55px;
+        top: 35px;
     }
 
     .text-box img {
