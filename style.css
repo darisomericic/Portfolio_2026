@@ -173,7 +173,7 @@ img {
     }
 
     .container-content p {
-        font-size: clamp(5px, 17px, 25px);
+        font-size: clamp(5px, 15px, 25px);
         width: 80%;
     }
 
