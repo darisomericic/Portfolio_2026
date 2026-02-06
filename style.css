@@ -2,6 +2,7 @@ body {
     background-color: #767A79;
     overflow: auto;
     height: auto;
+    margin: 0;
  
 }
 
@@ -126,7 +127,7 @@ img {
     -webkit-text-stroke: 0.15px black;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
     .container {
         display: flex;
         align-items: center;
@@ -139,6 +140,7 @@ img {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 5vh;
     }
 
     .container-content p {
@@ -147,7 +149,7 @@ img {
     }
 
     img {
-       width: 60%; 
+       width: 50%; 
        height: auto;
     }
 
@@ -176,7 +178,7 @@ img {
     }
 
     img {
-       width: 60%; 
+       width: 50%; 
        height: auto;
     }
 }
@@ -208,6 +210,8 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 1px 5px rgba(1, 1, 1, 1.5);
+  
 
 }
 
@@ -284,12 +288,15 @@ img {
     position: relative;
     border-radius: 6px;
     font-size: 15px;
+    box-shadow: 0 1px 5px rgba(1, 1, 1, 1.5);
+    
  
 }
 
 
 .left-container {
     left: 0;
+    
 }
 
 .right-container {
@@ -370,6 +377,7 @@ img {
     border-left: 15px solid #565858;
     right: -15px;
     
+    
 }
 
 .right-container-arrow {
@@ -388,14 +396,21 @@ img {
 @media (max-width: 768px) {
     .left-container .icon {
         top: 35px;
+        margin-left: 0.5vh;
+        
     }
 
     .right-container .icon {
         top: 35px;
+        margin-left: 0.5vh;
     }
 
     .text-box img {
         margin: 0.5vh;
+    }
+
+    .text-box {
+        margin-left: 1.5vh;
     }
 
 }
@@ -477,26 +492,27 @@ img {
 }
 
 #links {
-    background-color: #565858; 
-    display: flex;
-    flex-direction: column; 
-    align-items: center;     /* center vertically */
-    height: 100vh;
-    padding: 2vh;       /* full screen height */
-    
+  background-color: #565858;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+  
 
 }
 
 .link-header{
+  
     background-color: #354444;
     color: white;
     text-align: center;
-    padding: 5vh;
-    width: 98%;
+    padding: 5vh; 
     font-family: Arial, Helvetica, sans-serif;
+     width: calc(100% - 4vh); 
     text-decoration: underline;
     border-radius: 15px;
-    
+    margin: 2vh;  
+    box-sizing: border-box;   
 
 }
 
@@ -596,7 +612,7 @@ img {
 
   .socials {
     width: 70%;
-    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
 
   .icons a {
@@ -604,4 +620,17 @@ img {
     height: 48px;
   }
 }
+
+footer {
+    background-color: #3e4a4a;
+    width: 100%;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+
+
 
