@@ -176,6 +176,7 @@ img {
         font-size: clamp(5px, 15px, 25px);
         width: 80%;
     }
+    
 
     img {
        width: 50%; 
@@ -185,7 +186,7 @@ img {
 
 @media (max-width: 400px) {
     img {
-        width: 40%;
+        width: 55%;
         height: auto;
         
     }
